@@ -1,7 +1,7 @@
 class Node:
     def __init__(self,val):
         self.val = val
-        self.parent = val
+        self.parent = self
         self.rank = 0
     
 def find(v):
